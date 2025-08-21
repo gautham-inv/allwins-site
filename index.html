@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AllWins — Social Insights for Your Business</title>
+<meta name="description" content="AllWins helps businesses connect Instagram & Pinterest to view insights and showcase public metrics." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#0b1020; --card:#121833; --text:#e9edf5; --muted:#b8c1d9; --accent:#3aa3ff; --accent2:#7affc6;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--text);background:linear-gradient(180deg,#0b1020,#0a0d1a)}
+header{padding:28px 20px;display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto}
+.logo{font-weight:700;letter-spacing:.2px}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+.hero{max-width:1100px;margin:40px auto;padding:24px;display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
+.card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:26px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+h1{margin:0 0 10px;font-size:40px}
+.pill{display:inline-block;background:rgba(58,163,255,.12);color:var(--accent);border:1px solid rgba(58,163,255,.25);padding:6px 10px;border-radius:999px;font-size:12px;font-weight:600}
+.cta{display:inline-block;margin-top:14px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#071222;padding:12px 16px;border-radius:12px;font-weight:700;text-decoration:none}
+.features{max-width:1100px;margin:8px auto 40px;display:grid;gap:16px;grid-template-columns:repeat(3,1fr);padding:0 24px}
+.features .card h3{margin-top:0}
+.footer{max-width:1100px;margin:30px auto 80px;padding:0 24px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+.links a{color:var(--muted);text-decoration:none;margin-right:14px}
+@media (max-width:900px){.hero{grid-template-columns:1fr}.features{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">AllWins</div>
+<nav>
+<a href="#features">Features</a>
+<a href="#contact">Contact</a>
+<a href="/privacy-policy.html">Privacy</a>
+</nav>
+</header>
+
+
+<main class="hero">
+<section class="card">
+<span class="pill">SOCIAL INSIGHTS PLATFORM</span>
+<h1>Showcase your wins. Understand your reach.</h1>
+<p>Connect your Instagram Business/Creator and Pinterest accounts to see followers, post performance, and public profile details—then share what you choose on your site.</p>
+<a class="cta" href="#contact">Get a demo</a>
+</section>
+<section class="card">
+<h3 style="margin-top:0">What AllWins does</h3>
+<ul>
+<li>Reads <strong>public profile fields</strong> and your <strong>authorized insights</strong></li>
+<li>Never sells your data</li>
+<li>You can disconnect at any time</li>
+</ul>
+<p style="color:var(--muted);font-size:14px;margin-top:18px">By connecting, you grant our app read access to the scopes you approve. We do not post on your behalf.</p>
+</section>
+</main>
+
+
+<section id="features" class="features">
+<div class="card">
+<h3>Instagram (Graph API)</h3>
+<p>Followers count, username, account type; media with captions, URLs, like & comment counts; selected insights where supported.</p>
+</div>
+<div class="card">
+<h3>Pinterest API</h3>
+<p>Profile details; boards; pins with images, links and metadata; optional analytics where permitted.</p>
+</div>
+<div class="card">
+<h3>Control & Transparency</h3>
+<p>Users can revoke access at any time. We respect platform policies and only request the minimum scopes needed.</p>
+</div>
+</section>
+
+
+<section id="contact" class="card" style="max-width:1100px;margin:0 auto 24px;padding:24px">
+<h2 style="margin:0 0 6px">Contact</h2>
+<p style="color:var(--muted)">Email: <a href="mailto:hello@allwins.ai">hello@allwins.ai</a></p>
+<p style="color:var(--muted)">Company: AllWins (example)
+<br>Registered address: 123, Sample Street, City, Country (update this)
+</p>
+</section>
+
+
+<footer class="footer">
+<div>© <span id="y"></span> AllWins</div>
+</html>
